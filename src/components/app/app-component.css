@@ -1,7 +1,11 @@
-.test {
-    background-color: red;
+html, body {
+    margin: 0;
 }
 
-.header {
-    background-color: blue;
+header {
+    text-align: center;
+}
+
+.users-list {
+    background-color: coral;
 }

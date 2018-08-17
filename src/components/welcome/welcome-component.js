@@ -1,7 +1,7 @@
 export default {
     data() {
         return {
-            headerMessage: "My header !"
+            welcomeMessage: 'Welcome to vue-leaflet'
         }
     }
 }

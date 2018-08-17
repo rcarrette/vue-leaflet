@@ -1,12 +1,11 @@
 <template>
   <div>
-    <div class="test">
-      <h1>{{ msg }}</h1>
-    </div>
-    
-    <div class="header">
-      <header-component></header-component>
-    </div>
+    <header>
+      <welcome-component></welcome-component>
+    </header>
+    <aside class="users-list">
+      <users-list-component></users-list-component>
+    </aside>
   </div>
 </template>
 
