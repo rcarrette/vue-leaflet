@@ -1,0 +1,31 @@
+{
+  "name": "vue-leaflet",
+  "version": "1.0.0",
+  "description": "**Simple project for personal technical training purposes.**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watch \"npm run build\" src",
+    "build": "browserify -t vueify -e src/main.js -o dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcarrette/vue-leaflet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcarrette/vue-leaflet/issues"
+  },
+  "homepage": "https://github.com/rcarrette/vue-leaflet#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "vue": "^2.5.17",
+    "vueify": "^9.4.1",
+    "watch": "^1.0.2"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}
