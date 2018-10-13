@@ -17,7 +17,7 @@ const getUsers = () => {
             return {
                 name: user.name,
                 username: user.username,
-                location: user.address.geo
+                location: [parseInt(user.address.geo.lat), parseInt(user.address.geo.lng)]
             }
         })
     }
@@ -30,8 +30,6 @@ export default {
         }
     },
     methods: {
-        onUserSelected: (selectedUser) => {
-            appComponent.eventBus.$emit('onUserSelected', selectedUser)
-        }
+        onUserSelected: (selectedUser) => appComponent.eventBus.$emit('user-selected', selectedUser)
     }
 }

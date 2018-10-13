@@ -1,7 +1,8 @@
 .users-list {
-    background-color: coral;
+    border: 1px solid coral;
 }
 
 li:hover {
     cursor: pointer;
+    background-color: grey;
 }

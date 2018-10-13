@@ -1,6 +1,9 @@
 <template>
   <div>
-      <label>{{ selectedUser.name }}</label>
+    <label>{{ selectedUser.name }}</label>
+    <div id="map">
+    
+    </div>
   </div>
 </template>
 
