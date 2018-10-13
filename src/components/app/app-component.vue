@@ -6,6 +6,7 @@
     <aside class="users-list">
       <users-list-component></users-list-component>
     </aside>
+    <map-component class="map"></map-component>
   </div>
 </template>
 

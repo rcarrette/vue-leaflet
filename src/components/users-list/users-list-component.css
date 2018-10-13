@@ -1,0 +1,7 @@
+.users-list {
+    background-color: coral;
+}
+
+li:hover {
+    cursor: pointer;
+}
